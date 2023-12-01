@@ -1,0 +1,32 @@
+.main-container {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .search-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .search-input {
+    flex-grow: 1;
+    margin: 0;
+  }
+  .search-button {
+    white-space: nowrap;
+  }
+  .form-control {
+    border-radius: 0;
+  }
+  .btn-primary {
+    border-radius: 0;
+    background-color: #333;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #555;
+  }
